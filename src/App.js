@@ -1,11 +1,14 @@
 import React from "react";
+import Navbar from "./components/NavBar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      
-      </header>
+      <Navbar />
+      <main style={{marginTop: "120px  "}}>
+      <p>C'est le contenu de la page</p>
+      </main>
+
     </div>
   );
 }
