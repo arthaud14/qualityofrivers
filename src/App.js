@@ -1,15 +1,23 @@
 import React from "react";
-import Navbar from "./components/NavBar/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Cartographie from "./pages/Cartographie";
+import Home from "./pages/Home";
+import Liens from "./pages/Liens";
+import Infos from "./pages/Infos";
+import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <main style={{marginTop: "120px  "}}>
-      <p>C'est le contenu de la page</p>
-      </main>
-
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/carthographie" element={<Cartographie />} />
+        <Route path="/liens utiles" element={<Liens />} />
+        <Route path="/les infos" element={<Infos />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
