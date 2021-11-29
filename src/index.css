@@ -6,8 +6,19 @@ body {
   margin: 0;
 }
 
+html {
+  background-color: #fdf4e1;
+}
+
+.header {
+  position: fixed;
+  background-color: #bde0ff;
+  height: 15%;
+  width: 100%;
+}
+
 .footer {
-  background-color: blue;
+  background-color: #bde0ff;
   bottom: 0;
   position:fixed;
   width: 100%;

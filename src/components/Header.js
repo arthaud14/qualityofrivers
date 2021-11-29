@@ -4,7 +4,7 @@ import BurgerMenu from './BurgerMenu';
 
 const Header = (props) => {
     return (
-        <div className="flex w-full ">
+        <div className="header">
             <BurgerMenu />
             <div className="flex w-full h-14 bg-blue-700">
 
