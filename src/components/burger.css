@@ -7,7 +7,7 @@
 }
 
 .bm-burger-bars {
-    background: rgb(240, 240, 240);
+    background: #4d493e;
 }
 
 .bm-cross-button {
@@ -15,12 +15,15 @@
     width: 480px;
 }
 
-.bm-cross-button {
-    background: white;
-}
+/* .bm-cross-button {
+    background: #4d493e;
+} */
 
+.bm-cross {
+    background: #4d493e;
+}
 .bm-menu {
-    background: #bde0ff;
+    background: #c4f8ef;
     padding: 2.5em 1.5em 0;
     font-size: 1.8em;
 }
@@ -31,7 +34,7 @@
 
 .bm-item {
     display: block;
-    color: white;
+    color: #4d493e;
     text-decoration: none;
     padding: 10px;
 }

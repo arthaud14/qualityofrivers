@@ -7,25 +7,25 @@ body {
 }
 
 html {
-  background-color: #fdf4e1;
+  background-color: #faedcd;
 }
 
 .header {
   position: fixed;
-  background-color: #bde0ff;
+  background-color: #c4f8ef;
   height: 15%;
   width: 100%;
 }
 
 .footer {
-  background-color: #bde0ff;
+  background-color: #faedcd;
   bottom: 0;
   position:fixed;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: #4d493e;
 }
 
 .Logo-res {
@@ -36,4 +36,21 @@ html {
 
 h2, p {
   font-size: 15px;
+}
+
+.title {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: #4d493e;
+  align-items: flex-end;
+
+}
+
+h1 {
+  font-size: 30px;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

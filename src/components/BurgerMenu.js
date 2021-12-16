@@ -14,9 +14,10 @@ const BurgerMenu = () => {
   return (
     <Menu noOverlay onStateChange={toggleMenu}>
       <Link to="/"> Accueil </Link>
-      <Link to="/cartographie"> Cartographie </Link>
-      <Link to="/liens"> Liens Utiles </Link>
-      <Link to="/infos"> Mes Infos </Link>
+      <Link to="/Cartographie"> Cartographie </Link>
+      <Link to="/River"> Rivières Sauvages </Link>
+      <Link to="/Liens"> Liens Utiles </Link>
+      <Link to="/Infos"> Mes Infos </Link>
     </Menu>
   );
 };

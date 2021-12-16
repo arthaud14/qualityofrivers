@@ -1,12 +1,13 @@
-import React from 'react';
-import Header from '../components/Header';
+import React from "react";
+
 
 const Cartographie = () => {
-    return (
-        <div>
-             <Header name="Cartographie" />
-        </div>
-    );
+  return (
+    <div className="">
+
+      <h1 className="cartographie">Cartographie</h1>
+    </div>
+  );
 };
 
 export default Cartographie;

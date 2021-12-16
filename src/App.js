@@ -1,21 +1,25 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Cartographie from "./pages/Cartographie";
 import Home from "./pages/Home";
 import Liens from "./pages/Liens";
 import Infos from "./pages/Infos";
 import "./App.css";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
+import River from "./pages/River";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/carthographie" element={<Cartographie />} />
-        <Route path="/liens utiles" element={<Liens />} />
-        <Route path="/les infos" element={<Infos />} />
-      </Routes>
+      <Header />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/carthographie" component={Cartographie} />
+        <Route path="/river" component={River} />
+        <Route path="/liens" component={Liens} />
+        <Route path="/infos" component={Infos} />
+      </Switch>
       <Footer />
     </BrowserRouter>
   );
